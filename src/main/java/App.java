@@ -1,16 +1,17 @@
-public class Puzzle {
+public class App {
+
   public static void main(String[] args) {
-    String layout = "templates/layout.vtl";
-
-    get("/", (request, response) -> {
-      Map<String, Object> model = new HashMap<String, Object>();
-      model.put("template", "templates/home.vtl");
-      return new ModelAndView(model, layout);
-    }, new VelocityTemplateEngine());
-
-    get("/output", (request, response) -> {
-      Map<String, Object> model = new HashMap<String, Object>();
-      model.put("template", "templates/output.vtl");
+    // String layout = "templates/layout.vtl";
+    //
+    // get("/", (request, response) -> {
+    //   Map<String, Object> model = new HashMap<String, Object>();
+    //   model.put("template", "templates/home.vtl");
+    //   return new ModelAndView(model, layout);
+    // }, new VelocityTemplateEngine());
+    //
+    // get("/output", (request, response) -> {
+    //   Map<String, Object> model = new HashMap<String, Object>();
+    //   model.put("template", "templates/output.vtl");
 
   //     Blank blankList = new Blank(); /* >THIS CREATES A INSTANCE THE MAIN CLASS - "blankList" could be named anything<-*/
   //
@@ -24,5 +25,5 @@ public class Puzzle {
   //     model.put("result", myResults);/* ("results" is being linked from the output.vtl file)*/
   //     return new ModelAndView(model, layout);
   //   }, new VelocityTemplateEngine());
-  // }
+  }
 }

@@ -32,7 +32,7 @@ If while playing the game you run into any issues or have questions, ideas or co
 
 ## Technologies Used
 
-Java, Spark, Gradle and Velocity
+Java, Spark, Gradle, Velocity, Bootstrap
 
 ### License
 

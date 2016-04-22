@@ -2,10 +2,9 @@ import java.util.ArrayList;
 
 public class Puzzle{
 
- //  public Boolean(OUTPUT TYPE: BOOLEAN, STRING, ARRAYLIST, ETC) runBlank(METHOD NAME)(Integer(INPUT TYPE) year) {
- //     // eventually put your code here
- //     return false (ACCORDING TO THE TYPE THAT IS BEING USED);
- //   }
- // }
-
-}
+  public String runPuzzle(String sentence) {
+    String mySentence = new String();
+     // eventually put your code here
+     return mySentence;
+   }
+ }
