@@ -25,8 +25,9 @@ public class PuzzleTest { //("extends FluentTest" goes in front of PuzzleTest, o
  //    assertThat(pageSource()).contains("what you want to be found related to your method");
  // }
   @Test
-  public void runPuzzle_checkIfItreturnsWordInputterByUser_string(){
-    // Blank ->MAIN CLASS<- myBlank = new Blank();  ->THIS CREATES A INSTANCE THE MAIN CLASS<-
-    // assertEquals(FirstArgument, SecondArgument()) <-METHOD THAT COMPARES 1ST AND 2ND ARGUMENTS->
+  public void runPuzzle_checkIfItReturnsSenteceInputterByUser_string(){
+    Puzzle testPuzzle = new Puzzle();
+    String expected = "cat";
+    assertEquals(expected, testPuzzle.runPuzzle("cat"));
   }
 }
