@@ -30,4 +30,10 @@ public class PuzzleTest { //("extends FluentTest" goes in front of PuzzleTest, o
     String expected = "cat";
     assertEquals(expected, testPuzzle.runPuzzle("cat"));
   }
+  @Test
+  public void runPuzzle_checkIfItReplacesVowelWithDash_string(){
+    Puzzle testPuzzle = new Puzzle();
+    String expected = "c-t";
+    assertEquals(expected, testPuzzle.runPuzzle("c-t"));
+  }
 }
