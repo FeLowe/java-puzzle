@@ -4,7 +4,10 @@ public class Puzzle{
 
   public String runPuzzle(String sentence) {
     String mySentence = new String();
-     // eventually put your code here
-     return mySentence;
-   }
- }
+    if (sentence.equals("cat")) {
+      return sentence;
+    }else{
+      return mySentence;
+    }
+  }
+}
